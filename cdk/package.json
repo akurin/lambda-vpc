@@ -1,0 +1,30 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "bin/cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.116.0",
+    "@aws-cdk/aws-apigateway": "^1.116.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "^16.4.12",
+    "aws-cdk": "^1.116.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ec2": "^1.116.0",
+    "@aws-cdk/aws-lambda": "^1.116.0",
+    "@aws-cdk/core": "^1.116.0",
+    "source-map-support": "^0.5.16"
+  }
+}
